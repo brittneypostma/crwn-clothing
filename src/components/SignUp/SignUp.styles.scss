@@ -1,10 +1,18 @@
 .sign-up {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  justify-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-self: flex-end;
 
-  .title {
-    margin: 10px 0;
-  }
+	.title {
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 751px) {
+	.sign-up {
+		justify-self: flex-start;
+		width: 100%;
+		margin-top: 50px;
+	}
 }
