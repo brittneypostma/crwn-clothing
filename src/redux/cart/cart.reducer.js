@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import CartActionTypes from './cart.types';
 import { addItemToCart } from './cart.utils';
+=======
+import CartActionTypes from "./cart.types";
+import { addItemToCart } from "./cart.utils";
+>>>>>>> 878187c89589cdf75c6d01bb08a37964515bb777
 
 const INITIAL_STATE = {
   hidden: true,

@@ -10,6 +10,9 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
         : cartItem
     );
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 878187c89589cdf75c6d01bb08a37964515bb777
   return [...cartItems, { ...cartItemToAdd, quantity: 1 }];
 };
