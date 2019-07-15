@@ -9,7 +9,7 @@ import { signUpStart } from '../../redux/user/user.actions';
 import './sign-up.styles.scss';
 
 const SignUp = ({ signUpStart }) => {
-	const [userCredentials, setCredentials] = useState({
+	const [userCredentials, setUserCredentials] = useState({
 		displayName: '',
 		email: '',
 		password: '',
@@ -25,13 +25,13 @@ const SignUp = ({ signUpStart }) => {
 			return;
 		}
 
-		setUserCredentials({ ...userCredentials, [name]: value });
+		signUpStart({ displayName, email, password });
 	};
 
 	const handleChange = event => {
 		const { name, value } = event.target;
 
-		setCredentials({ ...userCredentials, [name]: value });
+		setUserCredentials({ ...userCredentials, [name]: value });
 	};
 
 	return (
