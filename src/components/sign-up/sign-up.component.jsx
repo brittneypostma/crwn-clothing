@@ -25,7 +25,7 @@ const SignUp = ({ signUpStart }) => {
 			return;
 		}
 
-		signUpStart({ displayName, email, password });
+		setUserCredentials({ ...userCredentials, [name]: value });
 	};
 
 	const handleChange = event => {
