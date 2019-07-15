@@ -1,39 +1,39 @@
 .header {
-  height: 70px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 10px 0 0 25px;
-  }
+	.logo-container {
+		height: 100%;
+		width: 70px;
+		padding: 10px 0 0 25px;
+	}
 
-  .options {
-    font-size: 1.5rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+	.options {
+		font-size: 1.5rem;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
 
-    .option {
-      padding: 10px 15px;
-      cursor: pointer;
-    }
-  }
+		.option {
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+	}
 }
 
-@media only screen and (max-width: (511px)) {
-  .header {
-    font-size: 0.7rem;
+@media only screen and (max-width: (540px)) {
+	.header {
+		font-size: 0.7rem;
 
-    .logo {
-      width: 8vw;
+		.logo {
+			width: 8vw;
 
-      .option {
-        padding: 0;
-      }
-    }
-  }
+			.option {
+				padding: 0;
+			}
+		}
+	}
 }
