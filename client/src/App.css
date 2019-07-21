@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
-	padding: 20px 60px;
+	padding: 20px 50px 20px 40px;
 }
 
 a {
@@ -10,4 +10,10 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 10px 20px 10px 0;
+	}
 }
